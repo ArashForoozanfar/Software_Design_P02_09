@@ -1,1 +1,1 @@
-Arash Foroozanfar & Navid Kianfar Project for Priciples of Software Design Courese
+Arash Foroozanfar & Navid Kianfar Project for Principles of Software Design Courese
