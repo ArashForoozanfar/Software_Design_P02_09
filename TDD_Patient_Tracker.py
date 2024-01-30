@@ -133,8 +133,8 @@ class TestDataCenter(unittest.TestCase):
 
     def test_retrieve(self):
         info = self.data_center.retrieve('1')
-        self.assertEqual(info.Mental_Health_Info, 'RetrievedMentalInfo')
-        self.assertEqual(info.Physical_Health_Info, 'RetrievedPhysicalInfo')
+        self.assertEqual(info.Mental_Health_Info, 'MentalInfo')
+        self.assertEqual(info.Physical_Health_Info, 'PhysicalInfo')
 
 
 class TestUpToDateCenter(unittest.TestCase):
