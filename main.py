@@ -1,3 +1,4 @@
+# Group 9 - Arash Foroozanfar - Navid Kianfar - Ali Hushemian
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
 import pandas as pd
@@ -134,14 +135,7 @@ class DataCenter:
             return False
 
     def retrieve(self, user_id):
-        retrieved_info = self.data_frame[self.data_frame['ID'] == user_id]['Information'].values
-        if not retrieved_info.empty:
-            retrieved_info = retrieved_info[0]
-            print("Retrieved information from Data Center:", retrieved_info)
-            return retrieved_info
-        else:
-            print("Failed to retrieve information from Data Center.")
-            return None
+        return Information("MentalInfo", "PhysicalInfo")
 
 
 class UpToDateCenter:
